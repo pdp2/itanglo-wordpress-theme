@@ -1,0 +1,47 @@
+/*
+    Theme Name: itanglo
+    Author: Paolo Di Pasquale
+    Version: 1.0
+*/
+
+:root {
+    --default-text-color: #2e343b;
+}
+
+body {
+    color: var(--default-text-color);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+h1 a, h1 a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.itangloHeader {
+    background-image: url('./svg/world.svg');
+    background-position: center 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem 1rem 8rem 5%;
+}
+
+.itangloHeader h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    
+}
+
+.itangloDescription {
+    color: #fff;
+}

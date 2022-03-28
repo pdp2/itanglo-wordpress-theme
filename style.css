@@ -17,9 +17,8 @@
 body {
     background-color: var(--body-bg-color);
     background-image: url('./svg/world.svg');
-    background-position: center -100px;
+    background-position: center -65px;
     background-repeat: no-repeat;
-    background-size: cover;
     color: var(--default-text-color);
     font-family: 'IBM Plex Mono', monospace;
     font-size: 1rem;

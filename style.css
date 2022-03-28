@@ -57,13 +57,13 @@ h2 {
     background-color: #fff;
     border-radius: 5px;
     line-height: 1.5;
-    margin: 0 2%;   
+    margin: 0 2% 8rem;   
     max-width: var(--max-content-width);
     padding: 2rem 3% 4rem;
 }
 
 @media screen and (min-width: 1240px) {
     .itangloBlogPosts {
-        margin: auto;
+        margin: 0 auto 8rem;
     }
 }

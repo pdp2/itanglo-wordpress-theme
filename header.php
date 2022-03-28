@@ -9,6 +9,8 @@
     </head>
     <body <?php body_class() ?>>
         <header class="itangloHeader">
-            <h1><a href="<?php echo home_url(); ?>/"><?php bloginfo( 'name' ); ?></a></h1>
-            <div class="itangloDescription"><?php bloginfo( 'description' ); ?></div>
+            <div class="itangloHeaderContent">
+                <h1><a href="<?php echo home_url(); ?>/"><?php bloginfo( 'name' ); ?></a></h1>
+                <div class="itangloDescription"><?php bloginfo( 'description' ); ?></div>
+            </div>
         </header>

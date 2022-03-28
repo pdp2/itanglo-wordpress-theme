@@ -58,7 +58,7 @@ h2 {
     border-radius: 5px;
     margin: 0 2%;   
     max-width: var(--max-content-width);
-    padding: 2rem 3%;
+    padding: 2rem 3% 4rem;
 }
 
 @media screen and (min-width: 1240px) {

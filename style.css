@@ -62,6 +62,10 @@ h2 {
     padding: 2rem 3% 4rem;
 }
 
+.itangloBlogPostMeta {
+    margin-bottom: 1rem;
+}
+
 @media screen and (min-width: 1240px) {
     .itangloBlogPosts {
         margin: 0 auto 8rem;

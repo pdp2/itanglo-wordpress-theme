@@ -66,6 +66,10 @@ h2 {
     margin-bottom: 1rem;
 }
 
+.itangloBlogPostThumbnail {
+    margin: 0 0 1rem;
+}
+
 @media screen and (min-width: 1240px) {
     .itangloBlogPosts {
         margin: 0 auto 8rem;

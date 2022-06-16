@@ -33,18 +33,20 @@ h1 a, h1 a:visited {
 }
 
 h2 {
-    font-size: 2.4rem;
     font-weight: 600;
+    margin: 0;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
 }
 
 .itangloHeaderContent {
-    margin: auto;
-    max-width: var(--max-content-width);
-    padding: 8rem 5%;
+    padding: 1rem;
 }
 
 .itangloHeader h1 {
-    font-size: 3rem;
     font-weight: 700;
     margin: 0;
 }
@@ -54,12 +56,24 @@ h2 {
 }
 
 .itangloBlogPosts {
-    background-color: #fff;
-    border-radius: 5px;
     line-height: 1.5;
-    margin: 0 2% 8rem;   
-    max-width: var(--max-content-width);
-    padding: 2rem 3% 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 840px) {
+    .itangloBlogPosts {
+        justify-content: normal;
+    }
+}
+
+.itangloBlogPost {
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 400px;
 }
 
 .itangloBlogPostMeta {
@@ -70,8 +84,3 @@ h2 {
     margin: 0 0 1rem;
 }
 
-@media screen and (min-width: 1240px) {
-    .itangloBlogPosts {
-        margin: 0 auto 8rem;
-    }
-}

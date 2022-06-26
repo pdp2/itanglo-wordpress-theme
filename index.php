@@ -4,7 +4,7 @@
     <?php 
         while (have_posts()) {
             the_post(); ?>
-            <article>
+            <article class="post">
                 <header>
                     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                     <div>Posted by <?php the_author_posts_link(); ?> on <?php the_time('n.j.y') ?> in <?php echo get_the_category_list(','); ?></div>

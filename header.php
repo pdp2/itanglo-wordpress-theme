@@ -8,9 +8,7 @@
         <?php wp_head(); ?>
     </head>
     <body <?php body_class() ?>>
-        <header>
-            <div>
-                <h1><a href="<?php echo home_url(); ?>/"><?php bloginfo( 'name' ); ?></a></h1>
-                <div><?php bloginfo( 'description' ); ?></div>
-            </div>
+        <header class="siteHeader">
+            <h1><a href="<?php echo home_url(); ?>/"><?php bloginfo( 'name' ); ?></a></h1>
+            <p><?php bloginfo( 'description' ); ?></p>
         </header>

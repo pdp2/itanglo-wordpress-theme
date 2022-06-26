@@ -6,7 +6,6 @@
 
 :root {
     --default-text-color: #2e343b;
-    --max-content-width: 1200px;
 }
 
 * {
@@ -23,3 +22,16 @@ img {
     max-width: 100%;
 }
 
+main {
+    display: grid;
+    justify-content: center;
+}
+
+.post {
+    max-width: 800px;
+    margin: 0 3%;
+}
+
+.siteHeader {
+    padding-left: 3%;
+}

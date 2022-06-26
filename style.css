@@ -1,44 +1,7 @@
 /*
     Theme Name: itanglo
     Author: Paolo Di Pasquale
-    Version: 1.0
+    Version: 1.1
+
+    Please note: Styles are included in the main.css file. This file is necessary in order to create a WordPress theme.
 */
-
-:root {
-    --default-text-color: #2e343b;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    color: var(--default-text-color);
-    font-family: 'IBM Plex Mono', monospace;
-}
-
-img {
-    height: auto;
-    max-width: 100%;
-}
-
-main {
-    display: grid;
-    justify-content: center;
-}
-
-.post {
-    line-height: 1.5;
-    max-width: 800px;
-    margin: 0 3%;
-}
-
-.siteHeader {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 3%;
-}
-
-.menu ul {
-    list-style: none;
-}

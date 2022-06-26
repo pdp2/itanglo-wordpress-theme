@@ -2,6 +2,8 @@
 
 // Allows you to pick a featured image for posts
 add_theme_support( 'post-thumbnails' );
+// Allows you to create custom menus
+add_theme_support( 'menus' );
 
 add_action('wp_enqueue_scripts', 'itanglo_scripts');
 

@@ -14,6 +14,7 @@
                 <p><?php bloginfo( 'description' ); ?></p>
             </div>
             <?php wp_nav_menu( array(
-                "container" => "nav"
+                "container" => "nav",
+                "menu_class" => "menu"
             ) ) ?>
         </header>

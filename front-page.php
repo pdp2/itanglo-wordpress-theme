@@ -1,17 +1,16 @@
 <?php get_header(); ?>
 
-<main class="itangloBlogPosts">
+<main>
     <?php 
         while (have_posts()) {
             the_post(); ?>
-            <article class="itangloBlogPost">
+            <article>
                 <header>
                     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                    <div class="itangloBlogPostMeta">Posted by <?php the_author_posts_link(); ?> on <?php the_time('n.j.y') ?> in <?php echo get_the_category_list(','); ?></div>
+                    <div>Posted by <?php the_author_posts_link(); ?> on <?php the_time('n.j.y') ?> in <?php echo get_the_category_list(','); ?></div>
                 </header>
-                
                 <?php if ( has_post_thumbnail() ) { ?>
-                    <figure class="itangloBlogPostThumbnail">
+                    <figure>
                         <?php the_post_thumbnail(); ?>
                         <figcaption><?php echo get_post_meta( get_post_thumbnail_id(), '_wp_attachment_image_alt', true ); ?></figcaption>
                     </figure>

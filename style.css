@@ -5,7 +5,6 @@
 */
 
 :root {
-    --body-bg-color: #0e2a47;
     --default-text-color: #2e343b;
     --max-content-width: 1200px;
 }
@@ -15,72 +14,12 @@
 }
 
 body {
-    background-color: var(--body-bg-color);
-    background-image: url('./svg/world.svg');
-    background-position: center -65px;
-    background-repeat: no-repeat;
     color: var(--default-text-color);
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 0;
-}
-
-
-h1 a, h1 a:visited {
-    color: #fff;
-    text-decoration: none;
-}
-
-h2 {
-    font-weight: 600;
-    margin: 0;
 }
 
 img {
     height: auto;
     max-width: 100%;
-}
-
-.itangloHeaderContent {
-    padding: 1rem;
-}
-
-.itangloHeader h1 {
-    font-weight: 700;
-    margin: 0;
-}
-
-.itangloDescription {
-    color: #fff;
-}
-
-.itangloBlogPosts {
-    line-height: 1.5;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-@media (min-width: 840px) {
-    .itangloBlogPosts {
-        justify-content: normal;
-    }
-}
-
-.itangloBlogPost {
-    background-color: #fff;
-    border-radius: 3px;
-    margin: 10px;
-    padding: 10px;
-    max-width: 400px;
-}
-
-.itangloBlogPostMeta {
-    margin-bottom: 1rem;
-}
-
-.itangloBlogPostThumbnail {
-    margin: 0 0 1rem;
 }
 

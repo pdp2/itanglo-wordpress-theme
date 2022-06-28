@@ -36,3 +36,12 @@ main {
 .menu {
     list-style: none;
 }
+
+.siteHeading {
+    margin-bottom: 5px;
+}
+
+.siteTagline {
+    font-style: italic;
+    margin-top: 0;
+}

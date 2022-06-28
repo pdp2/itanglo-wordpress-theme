@@ -10,8 +10,8 @@
     <body <?php body_class() ?>>
         <header class="siteHeader">
             <div class="siteHeadingAndTagline">
-                <h1><a href="<?php echo home_url(); ?>/"><?php bloginfo( 'name' ); ?></a></h1>
-                <p><?php bloginfo( 'description' ); ?></p>
+                <h1 class="siteHeading"><a href="<?php echo home_url(); ?>/"><?php bloginfo( 'name' ); ?></a></h1>
+                <p class="siteTagline"><?php bloginfo( 'description' ); ?></p>
             </div>
             <?php wp_nav_menu( array(
                 "container" => "nav",

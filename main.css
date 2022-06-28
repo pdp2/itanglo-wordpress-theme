@@ -16,6 +16,10 @@ img {
     max-width: 100%;
 }
 
+figure {
+    margin: 0;
+}
+
 main {
     display: grid;
     justify-content: center;

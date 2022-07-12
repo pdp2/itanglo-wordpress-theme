@@ -12,7 +12,7 @@
                 <?php if ( has_post_thumbnail() ) { ?>
                     <figure>
                         <?php the_post_thumbnail(); ?>
-                        <figcaption><?php echo get_post_meta( get_post_thumbnail_id(), '_wp_attachment_image_alt', true ); ?></figcaption>
+                        <figcaption><?php echo wp_get_attachment_caption( get_post_thumbnail_id() ); ?></figcaption>
                     </figure>
                 <?php }
                 the_excerpt() ?>

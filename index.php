@@ -10,9 +10,9 @@
                     <p>Posted by <?php the_author_posts_link(); ?> on <?php the_time('n.j.y') ?> in <?php echo get_the_category_list(','); ?></p>
                 </header>
                 <?php if ( has_post_thumbnail() ) { ?>
-                    <figure>
-                        <?php the_post_thumbnail(); ?>
-                        <figcaption><?php echo wp_get_attachment_caption( get_post_thumbnail_id() ); ?></figcaption>
+                    <figure class="post__figure">
+                        <?php the_post_thumbnail('post-thumbnail', ['class' => 'post__img']); ?>
+                        <figcaption class="post__figCaption"><?php echo wp_get_attachment_caption( get_post_thumbnail_id() ); ?></figcaption>
                     </figure>
                 <?php }
                 the_excerpt() ?>

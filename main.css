@@ -31,6 +31,19 @@ main {
     margin: 0 3%;
 }
 
+.post__figure {
+    margin: 0 0 1em;
+}
+
+.post__img {
+    vertical-align: bottom;
+}
+
+.post__figCaption {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
 .siteHeader {
     display: flex;
     justify-content: space-between;
